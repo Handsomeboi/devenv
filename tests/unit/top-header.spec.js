@@ -13,7 +13,7 @@ describe("topHeader.vue", ()=> {
         expect(wrapper.exists()).toBe(true);
     })
 
-    it("does h1 exist", () => {
+    it("does h1 exist, when the user is logged in", () => {
         expect(wrapper.find("h1").text()).toBe("Logged in")
     })
 })
